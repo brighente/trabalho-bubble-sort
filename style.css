@@ -1,0 +1,108 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    padding: 40px;
+    margin: 0;
+    background-color: #666;
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 30px;
+}
+
+article{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+section {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 430px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+#produtosSection, #tabelaSection{
+    height: 460px;
+}
+
+#logSection{
+    width: 900px;
+}
+
+h2 {
+    font-size: 28pt;
+    font-weight: bolder;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 16pt;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+li {
+    font-size: 16pt;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.log-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    background-color: #666;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.log-bloco {
+    background: white;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    font-family: monospace;
+    white-space: pre-wrap;
+    font-size: 16pt;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    background-color: #2d3cc5;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14pt;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #005fa3;
+}

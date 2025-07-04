@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BubbleSort</title>
+</head>
+
+<body>
+
+    <article>
+        <section id="produtosSection">
+            <h2>Produtos</h2>
+            <ul id="precosGerais"></ul>
+             <button onclick="ordenarPrecos()">Ordenar por Preço</button>
+        </section>
+        <section id="tabelaSection">
+            <h2>Tabela de Preços</h2>
+            <h3>(Crescente)</h3>
+            <ul id="tabelaFinal"></ul>
+        </section>
+    </article>
+
+    <section id="logSection">
+        <h2>Log da Ordenação</h2>
+        <div id="logRodadas" class="log-grid"></div>
+    </section>
+
+    <script src="bubblesort.js"></script>
+</body>
+</html>
